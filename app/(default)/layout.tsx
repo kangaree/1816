@@ -24,7 +24,8 @@ export default function DefaultLayout({
 
   return (
     <>
-      <Header />
+      {/* Remove search bar for now */}
+      {/* <Header /> */}
 
       <main className="grow">{children}</main>
 

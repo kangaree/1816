@@ -13,21 +13,30 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              1816: The Year Without <br className="max-lg:hidden" />
-              Summer
+              The Year Without <br className="max-lg:hidden" />
+              <span className="text-blue-500">Summer</span>
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 text-lg text-gray-700"
+                className="text-gray-700 mb-4"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                The year 1816 AD is known as the Year Without a Summer because
-                of severe climate abnormalities that caused average global
-                temperatures to decrease by 0.4–0.7 °C (0.7–1 °F). Summer
-                temperatures in Europe were the coldest of any on record between
-                1766 and 2000, resulting in crop failures and major food
-                shortages across the Northern Hemisphere.
+                <span className="font-semibold">1816 AD</span> is known as the{" "}
+                <span className="italic">Year Without a Summer</span> because of
+                severe climate abnormalities that caused average global
+                temperatures to decrease by{" "}
+                <span className="text-blue-500">0.4–0.7 °C (0.7–1 °F)</span>.
+              </p>
+              <p
+                className="text-gray-700 mb-8"
+                data-aos="zoom-y-out"
+                data-aos-delay={350}
+              >
+                Summer temperatures in Europe were the coldest of any on record
+                between <span className="underline">1766 and 2000</span>,
+                resulting in crop failures and major food shortages across the
+                Northern Hemisphere.
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
                 <div
@@ -37,10 +46,10 @@ export default function HeroHome() {
                 >
                   <a
                     className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
+                    href="https://en.wikipedia.org/wiki/Year_Without_a_Summer"
                   >
                     <span className="relative inline-flex items-center">
-                      Start Free Trial{" "}
+                      Wiki Hole{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
@@ -48,7 +57,7 @@ export default function HeroHome() {
                   </a>
                   <a
                     className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="#0"
+                    href="https://www.nps.gov/articles/000/1816-the-year-without-summer.htm"
                   >
                     Learn More
                   </a>
@@ -64,19 +73,34 @@ export default function HeroHome() {
           >
             <div className="relative aspect-video rounded-2xl bg-gray-900 px-5 py-3 shadow-xl before:pointer-events-none before:absolute before:-inset-5 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] after:absolute after:-inset-5 after:-z-10 after:border-x after:[border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.300/.8),transparent)1]">
               <div className="relative mb-8 flex items-center justify-between before:block before:h-[9px] before:w-[41px] before:bg-[length:16px_9px] before:[background-image:radial-gradient(circle_at_4.5px_4.5px,_theme(colors.gray.600)_4.5px,_transparent_0)] after:w-[41px]">
-                <span className="text-[13px] font-medium text-white">
-                  cruip.com
-                </span>
+                <span className="text-[13px] font-medium text-white">1816</span>
               </div>
               <div className="font-mono text-gray-500 [&_span]:opacity-0">
                 <span className="animate-[code-1_10s_infinite] text-gray-200">
-                  npm login
-                </span>{" "}
-                <span className="animate-[code-2_10s_infinite]">
-                  --registry=https://npm.pkg.github.com
+                  I had a dream, which was not all a dream.
                 </span>
                 <br />
-                <span className="animate-[code-3_10s_infinite]">
+                <span className="animate-[code-2_10s_infinite] text-gray-200">
+                  The bright sun was extinguish'd, and the stars
+                </span>
+                <br />
+                <span className="animate-[code-3_10s_infinite] text-gray-200">
+                  Did wander darkling in the eternal space,
+                </span>
+                <br />
+                <span className="animate-[code-4_10s_infinite] text-gray-200">
+                  Rayless, and pathless, and the icy earth
+                </span>
+                <br />
+                <span className="animate-[code-5_10s_infinite] text-gray-200">
+                  Swung blind and blackening in the moonless air;
+                </span>
+                <br />
+                <span className="animate-[code-6_10s_infinite] text-gray-200">
+                  Morn came and went—and came, and brought no day;
+                </span>
+                <br />
+                {/* <span className="animate-[code-3_10s_infinite]">
                   --scope=@phanatic
                 </span>{" "}
                 <span className="animate-[code-4_10s_infinite]">
@@ -90,7 +114,7 @@ export default function HeroHome() {
                 <br />
                 <span className="animate-[code-6_10s_infinite]">
                   Package published.
-                </span>
+                </span> */}
               </div>
             </div>
           </div>

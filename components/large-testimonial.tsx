@@ -30,7 +30,7 @@ export default function LargeTestimonial() {
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
-              “I wrote <em className="italic text-gray-500">Frankenstein</em>”
+              “I wrote <em className="italic text-gray-500">Frankenstein</em> during the Year Without Summer!”
             </p>
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">Mary Shelley</span>{" "}
